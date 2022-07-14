@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer .bi{
+    margin-left: 10px;
+}
+
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

@@ -1,6 +1,5 @@
 .navbar{
     display: flex;
-    /* background-color: rgb(218, 28, 28); */
     width: 100%;
     justify-content: space-between;
     height: 50px;
@@ -15,7 +14,7 @@
 
 .nav{
     display: flex;
-    width: 50%;
+    width: 40%;
 }
 
 .nav button{
@@ -29,4 +28,29 @@
 .nav button:hover{
     background-color:rgb(224, 224, 224);
     height: 50px;
+}
+
+.about{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown{
+    /* display: none; */
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    
+}
+
+.dropdown button{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.dropdown button:hover{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
 }
